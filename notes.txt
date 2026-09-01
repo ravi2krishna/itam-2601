@@ -1,0 +1,297 @@
+Class - 1
+==========
+
+    -> ITAM - IT Asset Management 
+
+        -> What We Learn 
+
+            -> Our Goal in this course is to manage your organizations assets
+            in service now the correct way and implement best practices. 
+
+            -> You Need To Know How To Manage An Asset Life Cycle Effectively.
+
+            -> We Need To Learn What are differences 
+            Between Assets & CI's (Configuration Items) 
+
+                -> Proper Link Between Assets & CI's (Configuration Items) 
+
+            -> Understand How To Fulfill Asset Requests 
+
+                -> When Some End User Makes An Asset Request, you from an IT Asset Team
+                need to Fulfill that asset Request 
+
+
+    -> What Is Hardware Asset Management (HAM)         
+
+        -> Hardware Asset Management (HAM) is the Management of your Physical Assets.
+
+            -> From When An Asset is Requested 
+
+                -> Then Procured 
+
+                    -> Then Eventually Being Retired and Disposed Of 
+
+            -> HAM Ensures your Physical Assets are Fully Tracked 
+            
+            -> HAM Ensures also involves in Managing Warranties, Contracts and 
+            Vendor Agreements. 
+
+            -> Without HAM in place, it would be hard to figure out 
+            what assets the company owns and what assets employee owns.
+
+            -> Without HAM, Where the Assets are Located ? 
+
+            -> Without HAM, it's hard to Understand what asset supports 
+            which business service or system. 
+
+            -> Without HAM, we have security concerns, who is using this asset 
+            from security and accountability standpoint. 
+
+    
+    -> Real World HAM Scenario 
+
+        -> Person Ravi (New Employee), Joins ABC Technologies 
+
+        -> Ravi Needs A Laptop To Do His Job 
+
+        -> The Company ABC Technologies, is using Service Now 
+        To Manage Hardware Assets 
+
+        -> First Stage Is Planning 
+
+            -> Here the first stage of asset life Cycle is planning.
+
+            -> Ravi is joining ABC Technologies On 1st Of October 2026 
+
+            -> HR Creates Onboarding Requirement 
+
+                New Employee 
+                    |
+                   Ravi 
+                    |
+                Needs Laptop 
+
+            -> Now IT Asset Team Asks 
+
+                -> Do we actually need to purchase a new laptop ? 
+
+                -> IT Asset Team Checks 
+
+                    -> Do We Have Any Spare Laptop ? 
+
+                        -> Yes --> Reuse it 
+
+                        -> No 
+
+                            -> Should We Purchase One 
+                                        or 
+                            -> Should We Lease One 
+
+                    -> Say ABC Technologies Has No Suitable Spare Laptop
+
+                    -> So Decision From IT Asset Team is 
+
+                        -> Let's Purchase New Dell Laptop 
+
+            -> NOTE: Planning is not about owning the laptop.
+            It's About, What Hardware Do We Need and How We are going 
+            fulfill this need ? 
+
+        
+        -> Second Stage Is Acquisition
+
+            -> Acquiring Assets is the stage when the Procurement Department
+            goes through a formal process to acquire new assets. 
+
+                -> Which is achieved using a Purchase Order 
+
+            -> ABC Technologies 
+                    |
+                IT Vendor
+                    |
+                Purchase Order 
+                    | 
+                Dell Laptop 
+                    |
+                ABC Technologies 
+
+            
+            -> For Example 
+
+                Model: Dell Latitude 5500
+                Quantity: 1
+                Cost: ₹80000
+                vendor: XYZ Computers 
+
+            -> The Laptop Arrived, Now Asset Management Teams Records it 
+
+                -> For Example 
+
+                    Asset Tag: AST0001
+                    Serial Number: DELL123456
+                    Model: Dell Latitude 5500
+                    Cost: ₹80000
+                    State: In stock
+                    Stockrooms: Hyderabad IT Stockroom 
+
+                -> Does Ravi (Employee) has laptop ? 
+
+                    -> No, the company owns the laptop, but it's in the stockroom 
+
+
+        -> Third Stage Is Deployment 
+
+            -> In this stage of life Cycle is where newly purchased assets or
+            existing assets are deployed to operation. 
+
+            -> This is typically initiated by service request from end user. 
+
+            -> Ravi's Joining Date Arrives 
+
+            -> IT Receives Request 
+
+                -> Prepare Laptop For Ravi 
+
+                -> IT Takes Laptop From The Hyderabad Stockroom 
+
+                -> Configure laptop 
+
+                    -> Installing Operating System, System Softwares etc 
+                
+                -> Give To Ravi (Employee) 
+
+            -> Now Asset Record Changes 
+
+                -> Asset Tag: AST0001
+                -> Assigned To: Ravi 
+                -> State: In Use
+                -> Location: Hyderabad
+
+            -> Who Owns Laptop ?
+
+                -> ABC Technologies  
+
+            -> Who Uses Laptop ?
+                
+                -> Ravi 
+
+            -> NOTE: Ownership != Assignment 
+
+            -> Company Owns Laptop, Assigned To Ravi 
+
+        
+        -> Fourth Stage Is Management 
+
+            -> The Management Stage In Asset Lifecycle is Longest Stage 
+
+            -> Ravi Uses This Laptop For Three Years 
+
+            -> During This Three Years, Many Things Can Happen 
+
+                -> Scenario - 1 
+
+                    -> Ravi Changes Department 
+
+                        -> Ravi Moves From Finance Department To Development 
+
+                        -> The Laptop may continue with Ravi 
+
+                        -> Asset Information Needs To Remain Accurate 
+
+                -> Scenario - 2 
+
+                    -> Ravi Changes Company i.e Leaves The Company 
+
+                        -> Ravi Leaves 
+
+                            -> Laptop Returned 
+
+                                -> Hyderabad Stock Room 
+
+                        -> The Asset is no longer assigned to Ravi 
+
+                    -> Now Asset Record Changes 
+
+                        -> Asset Tag: AST0001
+                        -> Assigned To: Empty 
+                        -> State: In Stock
+                        -> Location: Hyderabad
+
+                    -> Ravi Used This Laptop For 2 Years 
+
+                        -> Laptop Condition ?
+
+                            -> Good : Reuse 
+                            -> Damaged / Wear and tear : Repair 
+                    
+                -> Scenario - 3 
+
+                    -> Suppose Priya (New Employee Joins) After 1 Month 
+
+                        -> Instead Of Purchasing Another Laptop 
+
+                            -> Hyderabad Stockroom
+
+                                -> Take Existing Laptop 
+
+                                    -> Assign To Priya 
+
+                -> Scenario - 4 
+
+                    -> After 3 Years 
+
+                        -> Laptop Age Has Reached More Than 3 Years 
+
+                            -> Performance Started Declining 
+
+                                -> Warranty Expired 
+
+                                    -> Replacement Required 
+
+                
+
+        -> Fifth Stage Is Retirement & Disposition 
+
+            -> In this stage of Lifecycle, the asset has reached 
+            end of its life, and no longer provides any value to organization. 
+
+            -> We have Disposition vendors who will collect assets and 
+            recycle them or completely destroy them. 
+
+            -> Scenario - 1 
+
+                -> The Company Might Reuse 
+
+                    -> Repair the asset and Assign To Another Employee 
+
+            
+            -> Scenario - 2
+
+                -> The Company Might Resell 
+
+                    -> Retire the Asset and Sell it to  Disposition vendors
+
+
+            -> Scenario - 3 
+
+                -> The Company Might Recycle 
+
+                    -> ITAD Vendor takes and Recycles the Asset
+
+            
+            -> Scenario - 4
+
+                -> The Company Might Destroy 
+
+                    -> Assume The Device Has Sensitive Data or Cannot Be Reused 
+
+                        -> Secure Data Destruction 
+
+                            -> Physical Destruction 
+
+                                -> ABC Technologies No Longer Owns This Asset
+
+
+
+
+
