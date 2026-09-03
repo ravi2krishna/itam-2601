@@ -293,5 +293,93 @@ Class - 1
 
 
 
+Class - 2
+==========
+
+    -> ITAM Lifecycle Of Assets 
+
+        -> Planning: Do we need it ?
+
+        -> Acquisition: How Do we get it ?
+
+        -> Deployment: Who gets it ?
+
+        -> Management: What is Happening to it ?
+
+        -> Retirement: What do we do with it ?
+
+    
+    -> ITAM and ITOM Connectivity 
+
+        -> ITAM - Asset Record - Ownership / Cost / Purchase / Warranty (Lifecycle)
+
+        -> ITOM - CI Record - Technical Details / OS / CPU / Relationships / Operational Data 
+
+    -> HAM is not just keeping the list of laptops, HAM is Knowing 
+
+        -> What Hardware company owns 
+
+        -> Where is it 
+
+        -> Who is using it 
+
+        -> How Much it costed 
+
+        -> What Condition is it in 
+
+        -> What Should Happen to it throughout it's entire life 
+
+
+    
+    -> To Create An Hardware Asset In Service Now, We Need To Know 
+    about Hardware Models. 
+
+    -> Hardware Models 
+
+        -> Let's Understand What an Hardware Model is and 
+        How To Create Hardware Models In Service Now. 
+
+        -> Hardware Model in service now represents a specific Hardware product,
+        it stores Information that is common to Hardware assets created from that model. 
+
+        -> A Hardware Asset represents an individual Physical item belonging 
+        to that model. 
+
+        -> For an an there can be common Information 
+
+            -> Manufacturer 
+            -> Model Number 
+            -> Description 
+            -> etc 
+
+        -> NOTE: Relationship Between Hardware Model and Hardware Assets is 
+        One To Many Relationship, means you can have multiple Hardware assets 
+        for any given Hardware model. 
+
+                    Hardware Model is HP-Z9 Workstation 
+                            Manufacturer - HP 
+                            Model Number - Z9 
+                            Description - Entry Level HP Workstation 
+
+        
+        HW - Asset - 1                  HW - Asset - 2                  HW - Asset - 3
+            Asset Tag - 10001               Asset Tag - 10002               Asset Tag - 10003
+            Assigned To - Ravi              Assigned To - John              Assigned To - Mike 
+
+        
+        -> NOTE: To Create Hardware Asset In Service Now, 
+        You Must Select Hardware Model In System.
+
+        -> NOTE: All Fields Of Hardware Models 
+        https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/hardware-model-fields.html
+
+    
+    -> Hardware Assets 
+
+        -> Any Physical Asset Like Computer, Mobile Phone, Printer etc 
+        is Hardware Asset. 
+
+        -> NOTE: All Fields Of Hardware Assets 
+        https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asset-record-fields.html
 
 
