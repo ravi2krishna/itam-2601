@@ -383,3 +383,33 @@ Class - 2
         https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asset-record-fields.html
 
 
+Class - 3
+==========
+
+    -> Continue Hardware Asset 
+
+    -> Like How We Have Hardware Models & Hardware Assets 
+    We have Consumable Models & Consumable Assets(Consumables)
+
+    -> Consumables are simply Accessories. 
+
+    -> These are the assets that are not required to be tracked when in use,
+    due to their low value and ease of Replacement. 
+
+    -> Consumables are tracked by the Quantity Level While They are in stock 
+    and no longer tracked when they are deployed to the users. 
+
+    -> Consumables Consists Of 
+
+        -> Cables 
+        -> Adapters 
+        -> Earphones 
+        -> Mouse
+        -> Keyboard 
+        -> Webcams 
+        -> etc 
+
+    -> NOTE: Consumables Should Be Tracked When They are Purchased and Kept In Storage. 
+    This ensures that asset managers have visibility of overall stock Consumables.
+
+    
