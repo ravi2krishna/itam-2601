@@ -413,3 +413,69 @@ Class - 3
     This ensures that asset managers have visibility of overall stock Consumables.
 
     
+Class - 4
+==========
+
+    -> Configuration Items 
+
+        -> A Configuration Item (CI) is a component that is managed
+        in order to deliver an IT Service. 
+
+        -> Configuration Items are stored in CMDB
+        Configuration Management Data Base 
+
+        -> Configuration Items Consists Of Hardware, Softwares,
+        Services etc 
+
+        -> Tracking Configuration Items is important practice 
+        in any organization as it allows top track Upstream and 
+        Downstream Dependencies for components that supports
+        your IT Services.
+
+        -> Configuration Items Contains all the Configuration Information
+        relating to CI's. For Example HP-Z9 Workstation is a computer which 
+        can include Information such as Hard drive capacity, RAM capacity,
+        it's IP Address, it's MAC Address, Installed Softwares etc 
+
+        -> NOTE: In servicenow, when you create an hardware asset, 
+        a Configuration item record is also created and linked to it.
+
+            -> If an Asset class is defined at the Model Level 
+            when creating a Configuration item, then a hardware asset will be created. 
+
+            
+                    Asset                           Configuration Item 
+                HP-Z9 Workstation                   HP-Z9 Workstation
+                (Asset Tag)                         (HDD-RAM-IP)
+
+            -> NOTE: In Most Of the organizations, Configuration items are tracked 
+            by the Configuration management teams(ITOM), as Configuration items 
+            needs to be tracked and monitored to ensure availability of business services.
+
+            -> NOTE: IT Asset Management Team tracks the "Financial and Physical Lifecycle"
+            Of Assets. 
+
+        
+        -> Difference Between Asset and Configuration Item 
+
+            -> Asset is a device like computer or server, but needs to tracked 
+            due to it's Financial value to an organization.
+
+            -> Whereas Configuration Item Can also be assets, but not always, and is 
+            tracked as it directly affects one or more business services.
+            For Example, a Configuration File is CI but not an Asset.
+
+        
+        -> Asset                                    -> Configuration Item (CI)
+
+            -> Tracked For Financial Purpose            -> Tracked For Supporting Business Services 
+
+            -> Tracked From Acquisition To Disposal     -> Only Tracked When It's In Use 
+
+            -> Has Parent / Child Relationships         -> Has Upstream and Downstream Dependencies 
+
+            -> A Financial Value Is Assigned            -> No Financial Value Is Assigned
+
+            -> Tracked By IT Asset Manager              -> Tracked By Configuration Manager 
+
+            
