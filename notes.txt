@@ -479,3 +479,41 @@ Class - 4
             -> Tracked By IT Asset Manager              -> Tracked By Configuration Manager 
 
             
+
+Class - 5
+==========    
+
+    -> Model Categories 
+
+        -> A Model Category is a basically a value that categorizes 
+        Models and Assets In servicenow Using Common Term. 
+
+        -> Categories are great for organizing Assets. 
+
+        -> Without Categories, there would not be easy way to find the assets 
+        of same type. Categories Consists of values Such as Computer, Server, Rack etc 
+
+        -> NOTE: Model Categories in servicenow allows you to decide whether 
+        a Configuration Item(CI) should Automatically be Created 
+        during the creation of asset or not and vice versa. 
+
+        -> NOTE: Not All Configuration Items can be Assets 
+
+            -> Configuration File is Configuration Item But Not Asset 
+
+        
+        -> NOTE: Lets Create a Model Category Called Personal Computer and 
+        Associate With A CI Class Like (Computer), then we will verify 
+        if it's going to create an Asset Based on the same or not. 
+
+        -> NOTE: We Cannot Create Model Category, If an Existing Category 
+        is already Associated with CI Class, As Computer CI Class is already
+        Associated With Computer Model category, We Cannot create it. 
+
+        -> NOTE: While Going With LAB use the CI Class as Virtual Desktop,
+        which is not Associated with any Model Category. 
+
+        
+
+    
+
