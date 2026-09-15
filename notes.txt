@@ -515,5 +515,79 @@ Class - 5
 
         
 
+Class - 6
+==========    
+
+    -> Manufacturers & Vendors 
+
+        -> Manufacturer 
+
+            -> A Company that creates products to sell.
+
+            -> A Company Like Dell or Cisco (Laptops, Routers)
+
+            -> NOTE: It's important to track the Hardware Asset Manufacturer
+            so that you can easily run reports or search assets by Manufacturer.
+
+        
+        -> Vendor 
+
+            -> A Vendor Can be a Company or an Individual that you do business with 
+            to procure goods and services from. 
+
+            -> A Company Like Amazon is an Vendor for me. 
+
+            -> Sometimes a Vendor can also be Manufacturer as well.
+
+            -> For Example Dell seels assets like Laptops and Computers,
+            but at  the same time they also sell products and services. 
+
+
+        -> NOTE: Manufacturers and Vendors in servicenow are stored together in 
+        company table, these are not separate tables.
+
+        -> NOTE: When We Create A Company, by default there are no options for 
+        Manufacturers or Vendors, to get Manufacturers or Vendors Change 
+        View From Customer To default View.
+
+
+
+    -> Locations
+
+        -> A Location is servicenow represents a Physical Location that your 
+        organization owns, leases or does business at. 
+
+        -> Managing the Locations fo your organizations is great to further 
+        organize/filter hardware assets based on Locations.
+
+        -> NOTE: Without Locations, it's hard to Understand what Location,
+        building or a room a particular asset is in. 
+
+        -> In Service Now You create Location Hierarchy 
+        (Building -> Floors -> Rooms)
+
     
+    
+    -> Stockrooms 
+
+        -> Stockrooms are designated areas where Assets are held for the 
+        purpose of Storage. 
+
+        -> Stockrooms allow you to securely store assets, when they are not in use. 
+
+        -> The Advantage of stockroom is they allow asset managers to easily store 
+        large amounts of devices in a Contained space.
+
+        -> Benefits Of Stockrooms 
+
+            -> Single Collection Point For Asset Requests 
+            -> Safe and Secure Storage 
+            -> Reduced IT Systems Downtime 
+            -> Monitor All available Assets 
+            -> Meeting Regulatory and Security Compliance Standards. 
+
+
+
+
+
 
