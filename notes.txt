@@ -659,3 +659,70 @@ Class - 7
     -> NOTE: The Key Difference Between Straight Line and Double Declining Balance
     is that in Double Declining Balance Method we never include Salvage Value. 
 
+
+
+
+Class - 8
+==========
+
+    -> Cost Centers 
+
+        -> Cost Center is an Business Unit within an organization 
+        that is setup for the purpose of "allocating cost against it"
+
+        -> organizations use cost Centers for Accounting, it allows them 
+        to track every expense that occurs in each Department. 
+
+        -> NOTE: By Tracking Costs at Department Level, organization can 
+        easily manage and plan budgets. 
+
+    
+    -> Publishing Our Hardware Model To Service Catalog 
+
+        -> Service Catalog 
+
+            -> Service Catalog is a self-service catalog that end users 
+            within the organization can use for Requesting assets(Products). 
+
+            -> Service catalog includes details like ecommerce platforms 
+            price, Description, Quantity, delivery date etc 
+
+
+    -> Hardware Model Life Cycle 
+
+        -> Hardware Model Life Cycle are records that Contains 
+        specific End of Life Dates Issued From Manufacturer.
+
+        -> When Manufacturer Decides to no longer support a particular device
+        they usually publish dates for the following end of life events 
+
+            -> General Availability     
+
+            -> End Of Sale 
+
+            -> End Of Support
+
+            -> End Of Extended Support
+
+            -> End Of Life 
+
+        
+        -> Apple Mac Book 
+
+            -> General Availability 
+
+                -> 2025 - 04 - 01 
+
+            -> End Of Sale 
+
+                -> 2027 - 04 - 01 
+
+            -> End Of Support 
+
+                -> 2030 - 04 - 01  
+
+            -> End Of Life 
+
+                -> 2032 - 04 - 01  
+
+
