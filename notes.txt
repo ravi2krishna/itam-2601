@@ -765,3 +765,31 @@ Class - 9
         can access and make requests for Hardware Assets. 
 
 
+Class - 10
+==========
+
+    -> Transfer Orders 
+
+        -> A Transfer Order is needed when one or more assets are Transferred from 
+        one company stockroom to another for the purpose of stock distribution.
+
+        -> NOTE: By Transfer Orders we can save money by Transferring available
+        assets to a local stockroom when requests arise. 
+
+        -> We Will Create Transfer Order For Shipping Apple Laptop that we purchased 
+        from purchase order in previous session and will ship it from london stock room 
+        to destination stockroom. 
+
+        -> To Do Transfer Orders Procurement Plugin is must. 
+
+
+    -> Stock Rules  
+
+        -> A Stock Rule Is System Defined Check That Automatically Creates 
+        Purchase Order When the Amount Of Stock For a Given Hardware 
+        drops below some defined threshold.
+
+        
+
+
+
