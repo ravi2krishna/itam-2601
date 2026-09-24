@@ -726,3 +726,42 @@ Class - 8
                 -> 2032 - 04 - 01  
 
 
+
+Class - 9
+==========
+
+    -> Procurement 
+
+        -> Using servicenow Procurement Application We Can Create Purchase Orders. 
+
+        -> Procurement Offers 
+
+            -> Ability To Track Service Catalog Requests 
+
+            -> Create & Manage Purchase Orders 
+
+            -> Create & Manage Transfer Orders 
+
+            -> Receive Assets 
+
+        -> NOTE: Out of box, No Procurement Options are available in servicenow 
+
+        -> Procurement Plugin Adds Procurement Modules and Features, in order to 
+        fully manage the "Life Cycle Of Your Hardware" 
+
+        -> Once Procurement Plugin Is Activated We Can See Purchase Orders 
+
+    
+    -> Creating Asset Request (Requested Item)
+
+        -> How To Make An Asset Request 
+
+        -> How The Process Flow Of An Asset Request Works 
+
+        -> NOTE: We Will Create An Request For Apple Laptop 
+
+        -> NOTE: Asset Requests are typically made by end users through service catalog.
+        Most of the organizations will have Service Portal Setup so that all employees
+        can access and make requests for Hardware Assets. 
+
+
