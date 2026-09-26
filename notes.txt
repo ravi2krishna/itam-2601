@@ -790,6 +790,32 @@ Class - 10
         drops below some defined threshold.
 
         
+Class - 11
+==========
 
+    -> Stock Rules 
+
+    -> Vendor Catalog Items 
+
+        -> Vendor Catalog Items are records that the Procurement Department
+        manages in order to track the price of products that your vendors 
+        have for sale. 
+
+    
+    -> Dashboards 
+
+        -> A Dashboard is visual representation that allows you to 
+        organize the assets, purchases, stock etc in a very user 
+        friendly way.
+
+        -> A Dashboard can be used tio tell 
+
+            -> How Many Assets Are In Stock 
+
+            -> How Many Purchase Are In Pending
+
+            -> etc 
+
+        
 
 
